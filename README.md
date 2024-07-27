@@ -6,7 +6,7 @@ Welcome to the repository for the Full-Stack Drug Tracker Application, featuring
 
 - [About the Project](#about-the-project)
 - [Features](#features)
-- [Setup and Installation](#setup-and-installation)
+- [Setup and Installation](#-setup-and-installation)
 - [Running the Laravel Backend](#running-the-laravel-backend)
 - [Running the SwiftUI Frontend](#running-the-swiftui-frontend)
 - [Video Demonstrations](#video-demonstrations)
