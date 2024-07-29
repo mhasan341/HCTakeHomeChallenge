@@ -1,4 +1,4 @@
-# Full-Stack Drug Tracker Application
+# Full-Stack Drug Search & Tracker Application
 
 Welcome to the repository for the Full-Stack Drug Tracker Application, featuring a Laravel backend and a SwiftUI frontend. This project integrates with the National Library of Medicine's RxNorm APIs to provide drug search and tracking functionalities.
 
