@@ -75,4 +75,4 @@ password: password
 - **Error Alerts**
 - **Efficient State Management**
 - **Basic Animations**
-
+- **Basic Unit Testing**
