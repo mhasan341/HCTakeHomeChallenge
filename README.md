@@ -4,44 +4,23 @@ Welcome to the repository for the Full-Stack Drug Tracker Application, featuring
 
 ## 📚 Table of Contents
 
-- [About](#-about)
 - [Postman Collection](#-postman-collection)
+- [Demo Video](#-demo-video)
 - [Setup and Installation](#-setup-and-installation)
 - [Running the Laravel Backend](#running-the-laravel-backend)
 - [Running the SwiftUI Frontend](#running-the-swiftui-frontend)
 - [Video Demonstrations](#video-demonstrations)
-
-## 🌟 About
-This readme contains a brief description of the assignment deliverables.
+- [About](#-about)
 
 
-## ✨ Postman Collection
+## Postman Collection
 The api endpoints are neatly organized and carefully documented in this postman collection: https://documenter.getpostman.com/view/14910036/2sA3kaCKEF
 
+## Demo Video
 
-### Laravel Backend
+https://youtu.be/skOtX5z-Dts
 
-- **User Authentication**: Secured by Sanctum
-- **Drug Search** (Public)
-- **User Medications** (Private & all essential api)
-- **Error Handling**
-- **Testing**: 97.85% code is covered (80 Tests, 267 assertions in total), including the CRUDs and we can still do more. Few files are ignored at this moment.
-- **Admin Panel**
-
-It can be seen here: https://hcthp.premiercode.pro/
-email: mahmud@housecall.ae
-password: password
-
-
-### SwiftUI Frontend
-
-- **Responsive Design**: with best SwiftUI practices
-- **Real-Time Data**
-- **Swipe Actions**
-- **Error Alerts**
-- **Efficient State Management**
-
-## 🚀 Setup and Installation (for Laravel)
+## Setup and Installation (for Laravel)
 
 ### Clone this repository
 
@@ -75,4 +54,28 @@ For any permission related issue, please provide permission to the following fol
 chmod -R 775 storage
 chmod -R 775 bootstrap/cache
 ```
+
+#About
+
+### Laravel Backend
+
+- **User Authentication**: Secured by Sanctum
+- **Drug Search** (Public)
+- **User Medications** (Private & all essential api)
+- **Error Handling**
+- **Testing**: 97.85% code is covered (80 Tests, 267 assertions in total), including the CRUDs and we can still do more. Few files are ignored at this moment.
+- **Admin Panel**
+
+It can be seen here: https://hcthp.premiercode.pro/
+email: mahmud@housecall.ae
+password: password
+
+
+### SwiftUI Frontend
+
+- **Responsive Design**: with best SwiftUI practices
+- **Real-Time Data**
+- **Swipe Actions**
+- **Error Alerts**
+- **Efficient State Management**
 
