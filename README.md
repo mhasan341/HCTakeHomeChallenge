@@ -4,13 +4,10 @@ Welcome to the repository for the Full-Stack Drug Tracker Application, featuring
 
 ## 📚 Table of Contents
 
-- [Postman Collection](#-postman-collection)
-- [Demo Video](#-demo-video)
-- [Setup and Installation](#-setup-and-installation)
-- [Running the Laravel Backend](#running-the-laravel-backend)
-- [Running the SwiftUI Frontend](#running-the-swiftui-frontend)
-- [Video Demonstrations](#video-demonstrations)
-- [About](#-about)
+- [Postman Collection](#postman-collection)
+- [Demo Video](#demo-video)
+- [Setup and Installation](#setup-and-installation)
+- [About](#about)
 
 
 ## Postman Collection
@@ -20,7 +17,7 @@ The api endpoints are neatly organized and carefully documented in this postman 
 
 https://youtu.be/skOtX5z-Dts
 
-## Setup and Installation (for Laravel)
+## Setup and Installation
 
 ### Clone this repository
 
