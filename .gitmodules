@@ -1,0 +1,6 @@
+[submodule "Laravel"]
+	path = Laravel
+	url = https://github.com/mhasan341/HouseCall.git
+[submodule "SwiftUI"]
+	path = SwiftUI
+	url = https://github.com/mhasan341/HCTHP.git
