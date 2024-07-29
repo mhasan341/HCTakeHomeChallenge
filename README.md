@@ -27,7 +27,7 @@ git submodule update --init --recursive
 ### Now we have two repositories
 
 ```bash
-cd HCTakeHomeChallenge/Laravel
+cd Laravel
 cp .env.example .env
 composer install
 ```
