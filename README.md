@@ -43,23 +43,36 @@ password: password
 
 ## 🚀 Setup and Installation (for Laravel)
 
-### Cloning the Repository
+### Clone this repository
+
 ```bash
 git clone https://github.com/mhasan341/HCTakeHomeChallenge.git
 cd HCTakeHomeChallenge
 git submodule update --init --recursive
 ```
-Now we have two repositories
+### Now we have two repositories
+
 ```bash
-cd HCTakeHomeChallenge/HouseCall
+cd HCTakeHomeChallenge/Laravel
 cp .env.example .env
 composer install
-php artisan migrate --seed
 ```
-Seeding is important as it creates some permissions and other data to be used.
+Edit the .env and add a database
+
+### Seeding is important as it creates some permissions and other data to be used.
+```bash
+php artisan migrate --seed
+
+php artisan key:generate
+
+php artisan serve
+```
+
+(optional)
+For any permission related issue, please provide permission to the following folder.
 
 ```bash
-php artisan key:generate
+chmod -R 775 storage
+chmod -R 775 bootstrap/cache
 ```
-
 
