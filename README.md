@@ -55,7 +55,7 @@ chmod -R 775 storage
 chmod -R 775 bootstrap/cache
 ```
 
-#About
+# About
 
 ### Laravel Backend
 
