@@ -61,9 +61,9 @@ chmod -R 775 bootstrap/cache
 - **Testing**: 97.85% code is covered (80 Tests, 267 assertions in total), including the CRUDs and we can still do more as we don't have enough time to cover all edge cases. Few files are ignored at this moment.
 - **Admin Panel**
 
-It can be seen here: https://hcthp.premiercode.pro/
-email: mahmud@housecall.ae
-password: password
+It can be found here: https://hcthp.premiercode.pro/
+<br> email: mahmud@housecall.ae
+<br> password: password
 
 
 ### SwiftUI Frontend
