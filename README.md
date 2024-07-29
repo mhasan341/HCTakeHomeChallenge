@@ -60,7 +60,7 @@ chmod -R 775 bootstrap/cache
 - **Drug Search** (Public)
 - **User Medications** (Private & all essential api)
 - **Error Handling**
-- **Testing**: 97.85% code is covered (80 Tests, 267 assertions in total), including the CRUDs and we can still do more. Few files are ignored at this moment.
+- **Testing**: 97.85% code is covered (80 Tests, 267 assertions in total), including the CRUDs and we can still do more as we don't have enough time to cover all edge cases. Few files are ignored at this moment.
 - **Admin Panel**
 
 It can be seen here: https://hcthp.premiercode.pro/
@@ -70,9 +70,11 @@ password: password
 
 ### SwiftUI Frontend
 
-- **Responsive Design**: with best SwiftUI practices
-- **Real-Time Data**
+- **Responsive Design** (Not pixel perfect yet)
+- **Dark & Light Mode** Follows system settings
+- **Dynamic Data Handling**
 - **Swipe Actions**
 - **Error Alerts**
 - **Efficient State Management**
+- **Basic Animations**
 
