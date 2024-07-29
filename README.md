@@ -4,17 +4,20 @@ Welcome to the repository for the Full-Stack Drug Tracker Application, featuring
 
 ## 📚 Table of Contents
 
-- [About the Project](#about-the-project)
-- [Features](#features)
+- [About](#-about)
+- [Postman Collection](#-postman-collection)
 - [Setup and Installation](#-setup-and-installation)
 - [Running the Laravel Backend](#running-the-laravel-backend)
 - [Running the SwiftUI Frontend](#running-the-swiftui-frontend)
 - [Video Demonstrations](#video-demonstrations)
 
-## 🌟 About the Project
+## 🌟 About
+This readme contains a brief description of the assignment deliverables.
 
 
-## ✨ Features
+## ✨ Postman Collection
+The api endpoints are neatly organized and carefully documented in this postman collection: https://documenter.getpostman.com/view/14910036/2sA3kaCKEF
+
 
 ### Laravel Backend
 
@@ -23,11 +26,12 @@ Welcome to the repository for the Full-Stack Drug Tracker Application, featuring
 - **User Medications** (Private & all essential api)
 - **Error Handling**
 - **Testing**: 97.85% code is covered (80 Tests, 267 assertions in total), including the CRUDs and we can still do more. Few files are ignored at this moment.
-- **Admin Panel**: Although not explicitly mentioned in the pdf, I did it just to be on the safe side, upon confirmation from team, later decided not to delete.
+- **Admin Panel**
 
 It can be seen here: https://hcthp.premiercode.pro/
 email: mahmud@housecall.ae
 password: password
+
 
 ### SwiftUI Frontend
 
@@ -37,15 +41,25 @@ password: password
 - **Error Alerts**
 - **Efficient State Management**
 
-## 🚀 Setup and Installation
+## 🚀 Setup and Installation (for Laravel)
 
 ### Cloning the Repository
+```bash
+git clone https://github.com/mhasan341/HCTakeHomeChallenge.git
+cd HCTakeHomeChallenge
+git submodule update --init --recursive
+```
+Now we have two repositories
+```bash
+cd HCTakeHomeChallenge/HouseCall
+cp .env.example .env
+composer install
+php artisan migrate --seed
+```
+Seeding is important as it creates some permissions and other data to be used.
 
 ```bash
-git clone https://github.com/yourusername/parent-repo.git
-cd parent-repo
-git submodule update --init --recursive
-
+php artisan key:generate
 ```
 
 
